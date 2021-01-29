@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+    <title>Title</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<div class="container-fluid p-0 m-0">
+    <div class="app-navbar border-bottom">
+        <a href="#" class="logo d-none d-lg-flex">
+            <div class="h1-modified">
+                <h1 style="font-style: normal; font-weight: 600; font-size: 18px;line-height: 25px;">SaaS Kit</h1>
+            </div>
+        </a>
+        <div class="search-input m-0 flex-grow-1">
+            <img src="images/search/icon/Search.png" alt="icon" class="search">
+            <input style="border: none" class="form-control mr-sm-2 d-lg-flex input-search"
+                   type="search"
+                   placeholder="Global search"
+                   aria-label="Search">
+        </div>
+        <div class="user-data align-items-center">
+            <img src="images/search/icon/notifications.png" alt="icon"
+                 class="notifications">
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="sidebar d-none d-lg-block">
+            <div class="container media">
+                <img class="mr-3 rounded-circle" src="images/Sierra.png"
+                     alt="Generic placeholder image">
+                <div class="media-body h2-modified-5 p-modified-3">
+                    <h2 class="mt-0">Sierra Ferguson</h2>
+                    <p>s.ferguson@gmail.com</p>
+                </div>
+            </div>
+
+            <ul class="nav-menu container-fluid ">
+                <li class="nav-item row">
+                    <div class="col-3 "><img src="images/side-bar-1.png" alt="icon"></div>
+                    <div class="col-7 pl-0"><a href="/">Dashboard</a></div>
+                </li>
+                <li class="nav-item row">
+                    <div class="col-3"><img src="images/side-bar-2.png " alt="icon"></div>
+                    <div class="col-9 pl-0">Tasks</div>
+                </li>
+                <li class="nav-item row">
+                    <div class="col-3"><img src="images/side-bar-3.png" alt="icon"></div>
+                    <div class="col-9 pl-0">Email</div>
+                </li>
+                <li class="nav-item row">
+                    <div class="col-3"><img src="images/side-bar-4.png" alt="icon"></div>
+                    <div class="col-9 pl-0">Contacts</div>
+                </li>
+                <li class="nav-item row">
+                    <div class="col-3"><img src="images/side-bar-5.png" alt="icon"></div>
+                    <div class="col-9 pl-0">Chat</div>
+                </li>
+                <li class="nav-item row">
+                    <div class="col-3"><img src="images/side-bar-6.png" alt="icon"></div>
+                    <div class="col-9 pl-0">Deals</div>
+                </li>
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="nav-menu container-fluid">
+                <li class="nav-item row">
+                    <div class="col-3"><img src="images/side-bar-7.png" alt="icon"></div>
+                    <div class="col-9 pl-0">Settings</div>
+                </li>
+            </ul>
+            <div class="separator"></div>
+            <div class="big-separator"></div>
+
+            <ul class="nav-menu container-fluid">
+                <li class="nav-item row">
+                    <div class="col-3"><img src="images/side-bar-8.png" alt="icon"></div>
+                    <div class="col-9 pl-0 d-content" style="font-weight: 500;font-size: 11px;
+                    line-height: 16px; letter-spacing: 0.01em;">Toggle sidebar
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-fluid p-0 m-0" style="background-color: #F5F6F8">
+            <div class="cards-wrapper">
+                <div class="row p-0 m-0">
+                    <div class="col-md-7">
+                        <div class="card">
+                            <div class="card-body container">
+                                <div class="row flex-nowrap">
+                                    <div class="col-7 ">
+                                        <p class="p-modified">8 task completed out of 10</p>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        <p class="p-modified-2"> Show: <a href="/">This week</a><span><img
+                                                src="images/Polygon.png" alt="icon"></span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class=" d-flex">
+                                            <div id="green"></div>
+                                            <div id="gray"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col mt-2">
+                                        <h2>23 December, Sunday</h2>
+                                    </div>
+                                </div>
+
+                                <div class="separator d-none d-lg-block "></div>
+
+                                <div class="container-md calendar p-0 mb-2 d-none d-md-block">
+                                    <div class="row d-flex justify-content-between link-color">
+                                        <div class="col d-flex justify-content-center"><a href="/">Sun</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/"
+                                                                                          style="color: #44B1F4">Mon</a>
+                                        </div>
+                                        <div class="col d-flex justify-content-center"><a href="/">Tue</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/">Wed</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/">Thu</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/">Fri</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/">Sat</a></div>
+                                    </div>
+
+                                    <div class="row link-color align-items-baseline">
+                                        <div class="col d-flex justify-content-center"><a href="/" id="blue-num">23</a>
+                                        </div>
+                                        <div class="col d-flex justify-content-center"><a href="/"
+                                                                                          style="color: #44B1F4">24</a>
+                                        </div>
+                                        <div class="col d-flex justify-content-center"><a href="/">25</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/">26</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/">27</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/">28</a></div>
+                                        <div class="col d-flex justify-content-center"><a href="/">29</a></div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+
+                                        <div class="card card-class">
+                                            <div class="card-body container">
+                                                <div class="row">
+                                                    <div class="col-8">
+                                                        <h2>Send benefit review by...</h2>
+                                                    </div>
+                                                    <div class="col-4 text-right p-modified-2">
+                                                        <p>Reminder</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-4 p-modified" style="color: #4C5862;opacity: 0.5;">
+                                                        <p>Due date:</p>
+                                                    </div>
+                                                    <div class="col-8 p-0 text-left p-modified" style="color: #4C5862;">
+                                                        <p>December 23, 2018</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-8 media">
+                                                        <img src="images/image%203.png" alt="icon"
+                                                             class="rounded-circle mr-3">
+                                                        <div class="media-body p-modified" style="color: #707683;">
+                                                            <p>George Fields</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-end p-modified-3">
+                                                        <button type="button" class="btn btn-success  green-button">
+                                                            Completed
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card card-class">
+                                            <div class="card-body container">
+                                                <div class="row">
+                                                    <div class="col-10">
+                                                        <h2>Invite to office meet-up</h2>
+                                                    </div>
+                                                    <div class="col-2 p-modified-2">
+                                                        <p>Call</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-4 p-modified" style="color: #4C5862;opacity: 0.5;">
+                                                        <p>Due date:</p>
+                                                    </div>
+                                                    <div class="col-8 p-modified" style="color: #4C5862;">
+                                                        <p>December 23, 2018</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-6 media">
+                                                        <img src="images/Rebecca.png" alt="icon"
+                                                             class="rounded-circle mr-3">
+                                                        <div class="media-body p-modified">
+                                                            <p>Rebecca Moore</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 d-flex justify-content-end ">
+                                                        <div class="d-none d-lg-block">
+                                                            <img src="images/before-rarbage.png" alt="icon"
+                                                                 id="before-garbage-img>">
+                                                        </div>
+                                                        <div class="pl-2">
+                                                            <img src="images/garbage.png" alt="icon" id="garbage-img">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-end p-modified-3">
+                                                        <button type="button" class="btn btn-danger red-button">
+                                                            Ended
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card card-class">
+                                            <div class="card-body container">
+                                                <div class="row flex-nowrap">
+                                                    <div class="col-8">
+                                                        <h2>Office meet-up</h2>
+                                                    </div>
+                                                    <div class="col-4 text-right p-modified-2">
+                                                        <p>Event</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-4 p-modified" style="color: #4C5862;opacity: 0.5;">
+                                                        <p>Due date:</p>
+                                                    </div>
+                                                    <div class="col-8 p-modified" style="color: #4C5862;">
+                                                        <p>December 23, 2018</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-8 media">
+                                                        <img src="images/Lindsey.png" alt="icon"
+                                                             class="rounded-circle mr-3">
+                                                        <div class="media-body p-modified" style="color: #707683;">
+                                                            <p>Lindsey Stroud</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-end p-modified-3">
+                                                        <button type="button" class="btn btn-success green-button">
+                                                            Completed
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row d-none d-lg-flex">
+                                                    <div class="col text-center p-modified">
+                                                        <a href="/">Show more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="card">
+                            <div class="card-body container">
+                                <div class="row">
+                                    <div class="col d-none d-lg-block">
+                                        <a href="#"><h2 style="color: black">Deals</h2></a>
+                                    </div>
+                                    <div class="col text-right">
+                                        <p class="p-modified-2"> Show: <a href="/">Monthly</a><span><img
+                                                src="images/Polygon.png" alt="icon"></span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col p-modified-4 d-flex align-items-baseline">
+                                        <img src="images/Ellipse%202.png" alt="icon" style="height: 8px; width: 8px">
+                                        <p>Closed deals</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="images/deals_graphic.png" alt="icon" style="width: 280px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body container">
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="#"><h2 style="color: black">Tasks</h2></a>
+                                    </div>
+                                    <div class="col text-right">
+                                        <p class="p-modified-2"> Show: <a href="/">Monthly</a><span><img
+                                                src="images/Polygon.png" alt="icon"></span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="images/Group%201.png" alt="icon" style="width: 140px">
+                                    </div>
+
+                                    <div class="col  d-flex align-items-center">
+                                        <ul class="list-unstyled p-modified-4 d-inline-block">
+                                            <li>
+                                                <img src="images/Ellipse%202%20(1).png" alt="icon">
+                                                <span style="font-style: normal;font-weight: normal;
+                                                 font-size: 10px;line-height: 15px;letter-spacing: 0.01em;">Active</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/Ellipse%202%20(2).png" alt="icon">
+                                                <span style="font-style: normal;font-weight: normal;
+                                                 font-size: 10px;line-height: 15px;letter-spacing: 0.01em;">Completed</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/Ellipse%202%20(3).png" alt="icon">
+                                                <span style="font-style: normal;font-weight: normal;
+                                                 font-size: 10px;line-height: 15px;letter-spacing: 0.01em;">Ended</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
